@@ -3,7 +3,6 @@
     "name": "locapic-part2",
     "slug": "locapic-part2",
     "privacy": "public",
-    "sdkVersion": "40.0.0",
     "platforms": [
       "ios",
       "android",
