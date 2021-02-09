@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "part3",
-    "slug": "part3",
+    "name": "locapic-part2",
+    "slug": "locapic-part2",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
+    "sdkVersion": "40.0.0",
     "platforms": [
       "ios",
       "android",
