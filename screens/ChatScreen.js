@@ -22,7 +22,7 @@ export default function ChatScreen() {
         </ListItem>
       </ScrollView>
 
-      <KeyboardAvoidingView behavior="padding" enabled>
+      <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"}>
           <Input
               containerStyle = {{marginBottom: 5}}
               placeholder='Your message'
