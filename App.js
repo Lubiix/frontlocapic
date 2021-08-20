@@ -1,4 +1,7 @@
-import React from 'react';
+
+import { LogBox } from 'react-native';
+LogBox.ignoreLogs(['Warning: ...']);
+import React, {useState} from 'react';
 
 import MapScreen from './screens/MapScreen';
 import HomeScreen from './screens/HomeScreen';
@@ -13,6 +16,7 @@ import { Ionicons } from '@expo/vector-icons';
 import {createStore, combineReducers} from 'redux';
 import {Provider} from 'react-redux';
 import pseudo from './reducers/pseudo';
+
 
 const store = createStore(combineReducers({pseudo}));
 
